@@ -1,0 +1,14 @@
+# Installer script for sysconf profile "sysconf.pi.okpi"  -*- shell-script -*-
+
+
+# Install required Debian packages
+_packages=
+
+# _packages="$_packages rsyslog"
+# _packages="$_packages curl"
+
+_packages="$_packages mpd"
+
+# utils
+
+sysconf_require_packages $_packages
