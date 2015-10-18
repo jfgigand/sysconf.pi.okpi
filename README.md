@@ -6,7 +6,7 @@
 
 * Management of SSH authorized keys, for users
   [root](tree/etc/ssh/authorized_keys.root.d/) and
-  [pi](/etc/ssh/authorized_keys.pi.d/) (one file per key, merged
+  [pi](tree/etc/ssh/authorized_keys.pi.d/) (one file per key, merged
   together by sysconf-etc.d)
 
 
