@@ -5,8 +5,8 @@
 ### 42000/tcp: SSH
 
 * Management of SSH authorized keys, for users
-  [tree/etc/ssh/authorized_keys.root.d/](root) and
-  [/etc/ssh/authorized_keys.pi.d/](pi) (one file per key, merged
+  [root](tree/etc/ssh/authorized_keys.root.d/) and
+  [pi](/etc/ssh/authorized_keys.pi.d/) (one file per key, merged
   together by sysconf-etc.d)
 
 
