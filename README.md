@@ -27,7 +27,7 @@ volume levels with a curses-like interface.
 The usual _pacmd_ command will of course provide complete management
 of the PulseAudio system.
 
-### How to configure
+#### How to configure the PulseAudio client
 
 * Install _paprefs_: ```apt-get install paprefs```
 * Run _paprefs_ as the same user as the one running PulseAudio (the
@@ -51,9 +51,10 @@ sound output, which is a lot more stable than the direct PulseAudio
 output (which was not usable in the first try, but's it's not the end
 of the story :). ALSA is emulated by PulseAudio anyway.
 
-#### Feedback about clients
+#### About MPD clients
 
-I have been using these clients:
+I have been using these clients (but there are
+[http://mpd.wikia.com/wiki/Clients](many)):
 
 * _mpc_ for easy _mpc update_ and control from scripts (including
 window manager applets)
