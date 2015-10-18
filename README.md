@@ -12,16 +12,16 @@
 
 ### 4713/tcp: PulseAudio
 
-[tree/etc/pulse/system.pa](Configuration) enables
+[Configuration](tree/etc/pulse/system.pa) enables
 _module-native-protocol-tcp_ and _module-zeroconf-publish_.
 
 You should update the network address with your own. TODO: split
 _tree/etc/pulse/system.pa_ to _tree/etc/pulse/system.pa.d/*.system.pa_
 files to allow easier overriding.
 
-[https://github.com/mk-fg/pulseaudio-mixer-cli](pulseaudio-mixer-cli.py),
+[pulseaudio-mixer-cli.py](https://github.com/mk-fg/pulseaudio-mixer-cli),
 which is a PulseAudio mixer written in Python, was imported
-[tree/usr/bin/pulseaudio-mixer-cli.py](here) and can control the
+[here](tree/usr/bin/pulseaudio-mixer-cli.py) and can control the
 volume levels with a curses-like interface.
 
 The usual _pacmd_ command will of course provide complete management
@@ -42,11 +42,11 @@ session should be restarted: run ```pulseaudio -k``` then
 
 ### 6600/tcp: MPD (Music Player Daemon)
 
-[http://www.musicpd.org/](MPD) runs as user _mpd_.
-[http://mpd.wikia.com/wiki/Clients](Clients) can connect to it from
+[MPD](http://www.musicpd.org/) runs as user _mpd_.
+[Clients](http://mpd.wikia.com/wiki/Clients) can connect to it from
 the local network.
 
-MPD is currently [tree/etc/mpd.conf](configured) to use ALSA only for
+MPD is currently [configured](tree/etc/mpd.conf) to use ALSA only for
 sound output, which is a lot more stable than the direct PulseAudio
 output (which was not usable in the first try, but's it's not the end
 of the story :). ALSA is emulated by PulseAudio anyway.
@@ -54,19 +54,19 @@ of the story :). ALSA is emulated by PulseAudio anyway.
 #### About MPD clients
 
 I have been using these clients (but there are
-[http://mpd.wikia.com/wiki/Clients](many)):
+[many](http://mpd.wikia.com/wiki/Clients)):
 
-* [http://www.musicpd.org/clients/mpc/](mpc) for easy _mpc update_ and
+* [mpc](http://www.musicpd.org/clients/mpc/) for easy _mpc update_ and
 control from scripts (including window manager applets)
 
-* [http://ncmpcpp.rybczak.net/](ncmpcpp) for a user friendly
+* [ncmpcpp](http://ncmpcpp.rybczak.net/) for a user friendly
 curses-style interface
 
-* [http://gmpclient.org/](gmpc) which is like _ncmpcpp_ but with a
+* [gmpc](http://gmpclient.org/) which is like _ncmpcpp_ but with a
 GTK+ interface: this is a good choice for someone used to GUI player
 like _Benshee_ or _Totem_.
 
-* [https://github.com/abarisain/dmix](MPDroid) to control MPD from an
+* [MPDroid](https://github.com/abarisain/dmix) to control MPD from an
 Android device, with a well-made interface.
 
 
