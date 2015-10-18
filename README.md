@@ -16,7 +16,7 @@
 _module-native-protocol-tcp_ and _module-zeroconf-publish_.
 
 You should update the network address with your own. TODO: split
-_tree/etc/pulse/system.pa_ to _tree/etc/pulse/system.pa.d/*.system.pa_
+_etc/pulse/system.pa_ to _etc/pulse/system.pa.d/*.system.pa_
 files to allow easier overriding.
 
 [pulseaudio-mixer-cli.py](https://github.com/mk-fg/pulseaudio-mixer-cli),
