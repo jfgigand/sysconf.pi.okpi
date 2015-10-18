@@ -56,17 +56,18 @@ of the story :). ALSA is emulated by PulseAudio anyway.
 I have been using these clients (but there are
 [http://mpd.wikia.com/wiki/Clients](many)):
 
-* _mpc_ for easy _mpc update_ and control from scripts (including
-window manager applets)
+* [http://www.musicpd.org/clients/mpc/](mpc) for easy _mpc update_ and
+control from scripts (including window manager applets)
 
-* _ncmpcpp_ for a user friendly curses-style interface
+* [http://ncmpcpp.rybczak.net/](ncmpcpp) for a user friendly
+curses-style interface
 
-* _gmpc_ which is like _ncmpcpp_ but with a GTK+ interface: this is a
-  good choice for someone used to GUI player like _Benshee_ or
-  _Totem_.
+* [http://gmpclient.org/](gmpc) which is like _ncmpcpp_ but with a
+GTK+ interface: this is a good choice for someone used to GUI player
+like _Benshee_ or _Totem_.
 
-* _MPDroid_ to control MPD from an Android device, with a well-made
-interface.
+* [https://github.com/abarisain/dmix](MPDroid) to control MPD from an
+Android device, with a well-made interface.
 
 
 ## History
