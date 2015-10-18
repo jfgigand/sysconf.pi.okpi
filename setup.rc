@@ -7,7 +7,9 @@ _packages=
 # _packages="$_packages rsyslog"
 # _packages="$_packages curl"
 
+_packages="$_packages git-annex"
 _packages="$_packages mpd"
+_packages="$_packages pulseaudio pulseaudio-module-zeroconf avahi-daemon dbus-x11"
 
 # utils
 
