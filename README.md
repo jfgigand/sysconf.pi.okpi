@@ -72,4 +72,5 @@ Android device, with a well-made interface.
 
 ## History
 
-* Created on 20151014 by JF Gigand <jf@geonef.fr>
+* 20151014 started by JF Gigand <jf@geonef.fr>
+* 20151018 first working version, released on GitHub
